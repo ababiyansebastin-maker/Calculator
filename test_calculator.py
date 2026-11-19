@@ -12,3 +12,18 @@ def test_subtract():
 def test_multiply():
 	assert multiply(4, 3) == 12
 
+def test_divide_uneven():
+        # Arrange
+        a, b = 9, 2
+        # Act
+        result = divide(a, b)
+        # Assert
+        assert result == 4.5
+
+def test_multiply_uneven():
+        # Arrange
+        a, b = 7, 0
+        # Act
+        result = multiply(a, b)
+        #Assert
+        assert result == 0
