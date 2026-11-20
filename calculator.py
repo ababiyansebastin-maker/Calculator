@@ -36,3 +36,7 @@ def CircleArea(r):
 	    return 3.14 * r * r
 	else:
 	    return "Error"
+
+def multiply(a, b):
+	return a * b
+
