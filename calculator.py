@@ -38,5 +38,5 @@ def CircleArea(r):
 	    return "Error"
 
 def multiply(a, b):
-	return a + b # deliberately wrong
+	return a * b
 
